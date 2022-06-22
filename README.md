@@ -62,5 +62,5 @@ alidns:
 在 `/etc/crontab` 文件添加下面代码
 
 ```crontab
-* * * * * root cd ~/DDNS && . venv/bin/activate && python src/alidns/ipv4.py
+*/5 * * * * root cd ~/DDNS && . venv/bin/activate && python src/alidns/ipv4.py
 ```
