@@ -1,0 +1,7 @@
+alidns:
+  key: 
+  secret: 
+  domains:
+    - DomainName: 
+      RR:
+        - 
